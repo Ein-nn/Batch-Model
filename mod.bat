@@ -1,0 +1,9 @@
+@echo off
+set MODINSTALL9v23=E:\Bioinfor\Modeller9.23
+set PYTHONPATH=E:\Bioinfor\Modeller9.23\modlib;
+set LIB_ASGL=E:\Bioinfor\Modeller9.23\asgl
+set BIN_ASGL=E:\Bioinfor\Modeller9.23\lib\x86_64-w64
+set PATH=%MODINSTALL9v23%\lib\x86_64-w64;%PATH%
+cd E:\Bioinfor\Modeller9.23\MyProject\model\8598
+mod9.23 align2d.py
+mod9.23 mod-single.py
